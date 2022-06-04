@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       
+
 
         <title>SHOPPING ON-LINE</title>
 
@@ -58,7 +58,7 @@
         </style>
     </head>
     <body>
-    
+
         <div class="flex-center position-ref full-height">
 
             @if (Route::has('login') && Auth::check())
@@ -76,18 +76,16 @@
                 <div class="title m-b-md">
                 <img src="{!! asset('imagem.png')!!}">
                 </div>
-               
+
                 <div class="links">
-               
-                    <a href="{{ url('/teste') }}">PAGINA INICIAL</a>
-                    <a href="https://laracasts.com">CADASTRO EMPRESA</a>
-                    <a href="https://codecasts.com.br">CADASTRO USUARIO</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/codecasts/laravel">GitHub</a>
-                    
+
+                    <a href="{{ url('/teste') }}">CADASTRO EMPRESA</a>
+                    <a href="{{ url('/cad') }}">CADASTRO USUARIO</a>
+                    <a href="https://youtube.com">REDES SOCIAIS</a>
+
+
                 </div>
-               
+
             </div>
         </div>
     </body>

@@ -4,12 +4,12 @@
 
     <div class="form-inscricao">
         <form action="/inscreva-se/register" method="post" enctype="application/x-www-form-urlencoded" id="inscreva_se"><fieldset>
-<div id="first-step" class="block-container"><div id="field-reg_cpf" class="control-inline-group"><label class="form_label optional" for="reg_cpf">Digite aqui seu CNPJ</label>
+<div id="first-step" class="block-container"><div id="field-reg_cpf" class="control-inline-group"><label class="form_label optional" for="reg_cpf">Digite aqui seu CPF</label>
 
 <input type="text" value="" id="reg_cpf" name="reg_cpf">
 
-<button type="button" id="cpf_ok" name="cpf_ok">OK</button></div>
-<div id="field-reg_cod_assinante" class="control-inline-group"><label class="form_label optional" for="reg_cod_assinante">Digite aqui seu código do representante</label>
+
+
 
 <input type="text" value="" id="reg_cod_assinante" name="reg_cod_assinante">
 
